@@ -79,6 +79,12 @@ public class Course {
   public void AddPrerequisite(Course c) {
     Prerequisites.Add(c);
   }
+  //练习2
+        else
+      {
+          Console.WriteLine("课程本身不能是自己的先修课！！！");
+      }
+  }
 
   //**************************************
   //
