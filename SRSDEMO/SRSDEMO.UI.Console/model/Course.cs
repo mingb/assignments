@@ -97,6 +97,8 @@ public class Course {
 				       int capacity) {
     // Create a new Section (note the creative way in
     // which we are assigning a section number) ...
+     //练习4 保证选课号都不一样
+     sectionnum = sectionnum + 1;
     Section s = new Section(OfferedAsSection.Count + 1, 
 				day, time, this, room, capacity);
 		
